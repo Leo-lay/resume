@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>简历生成器</title>
+    <title></title>
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
@@ -15,187 +15,126 @@
 <body>
     <div class="container" id="cv">
         <div class="side">
-            <div class="me">
-                <div class="portrait"></div>
-                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
-                    <h3>请输入图片URL地址：</h3>
-                    <br/>
-                    <input type="text" id="avatar-url">
-                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
-                </div>
-                <h1 id="username" >ekCit</h1>
-                <h4 id="persona-tag" >Python / Web / 互联网教育</h4>
-            </div>
             <div class="profile info-unit">
-                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <h2 class="info-header">
+                    <i class="iconfont icon-person"></i>
+                    <span class="info-title">基本信息</span>
+                </h2>
                 <hr>
                 <ul class="info-list">
                     <li>
-                        <label class="left-label">姓名</label><span class="label-value">XXX</span></li>
+                        <label class="left-label">姓名</label>
+                        <span class="label-value">雷永康</span>
+                    </li>
                     <li>
-                        <label class="left-label">学历</label><span class="label-value">本科</span></li>
+                        <label class="left-label">学历</label>
+                        <span class="label-value">大专</span>
+                    </li>
                     <li>
-                        <label class="left-label">毕业院校</label><span class="label-value">北京邮电大学</span></li>
+                        <label class="left-label">手机</label>
+                        <span class="label-value">18612198503</span>
+                    </li>
                     <li>
-                        <label class="left-label">毕业年份</label><span class="label-value">2017</span></li>
+                        <label class="left-label">邮箱</label>
+                        <span class="label-value">scleo0614@gmail.com</span>
+                    </li>
+                    <li>
+                        <label class="left-label">Github</label>
+                        <span class="label-value">https://github.com/Leo-lay</span>
+                    </li>
                 </ul>
             </div>
-            <div class="contact info-unit">
-                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+            <div class="education info-unit">
+                <h2 class="info-header">
+                    <i class="iconfont icon-education"></i>
+                    <span class="info-title">教育经历</span>
+                </h2>
                 <hr>
-                <ul class="info-list">
-                    <li>
-                        <label class="left-label">手机</label><span class="label-value">182XXXXXXXX</span></li>
-                    <li>
-                        <label class="left-label">邮箱</label><span class="label-value">crmrc2014@gmail.com</span></li>
-                    <li>
-                        <label class="left-label">个人主页</label><span class="label-value">exit-tixe.me</span></li>
-                    <li>
-                        <label class="left-label">Github</label><span class="label-value">github.com/ekCit</span></li>
-                </ul>
-            </div>
-            <div class="skill info-unit">
-                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
-                <hr>
-                <ul class="progress-list">
-                    <li>
-                        <label class="left-label">Python</label>
-                        <progress value="80" max="100"></progress>
-                    </li>
-                    <li>
-                        <label class="left-label">html/css</label>
-                        <progress value="70" max="100"></progress>
-                    </li>
-                    <li>
-                        <label class="left-label">Javascript</label>
-                        <progress value="60" max="100"></progress>
-                    </li>
-                    <li>
-                        <label class="left-label">机器学习</label>
-                        <progress value="60" max="100"></progress>
-                    </li>
-                </ul>
+                <label>大连工业大学 2009-2012</label>
+                <br/>
+                <label>软件技术（大专）</label>
             </div>
             <div class="stack info-unit">
-                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <h2 class="info-header">
+                    <i class="iconfont icon-build"></i>
+                    <span class="info-title">技术栈</span>
+                </h2>
                 <hr>
-                <ul class="stack-list">
-                    <li>
-                        <label class="left-label">前端</label><span class="label-value">jQuery、Angular.js、React.js</span></li>
-                    </li>
-                    <li>
-                        <label class="left-label">后端</label><span class="label-value">Flask、Django、Twisted、Node.js、MongoDB、MySQL、Redis</span></li>
-                    </li>
-                    <li>
-                        <label class="left-label">其它</label><span class="label-value">我全都是瞎写的。</span></li>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="code info-unit">
-                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
-                <hr>
-                <div class="weixin">
-                    <img src="static/image/weixin.png" alt="">
-
+                <div class="tag-container">
+                    <label class="tag">android</label>
+                    <label class="tag">angular</label>
+                    <label class="tag">javscript+html+css</label>
+                    <label class="tag">nativescirpt</label>
+                    <label class="tag">nodejs</label>
+                    <label class="tag">swagger</label>
+                    <label class="tag">bootstrap</label>
+                    <label class="tag">ant-design</label>
                 </div>
             </div>
-            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
-                <h3>请输入图片URL地址：</h3>
-                <br/>
-                <input type="text" id="weixin-url">
-                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            <div class="aboutme info-unit ">
+                <h2 class="info-header">
+                    <i class="iconfont icon-flower"></i>
+                    <span class="info-title">自我评价</span>
+                </h2>
+                <hr>
+                <p>5 年软件开发的路程,目前对前端技术有浓厚的兴趣主要发展意向js&nodejs。2年web企业应⽤开发主要使⽤angular 2,带领团队利用新技术解决业务发展不同场景的需求,有移动应用开发经验,原生Android应用&跨平台(angular 2+Typescript+nativescirpt)应用。<br/>
+                </p>
             </div>
         </div>
         <div class="main">
-            <div class="education info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
-                <hr>
-                <ul class="experience-list">
-                    <li>
-                        <h3>北京邮电大学 - 网络工程专业（本科）2012-2017</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </li>
-                </ul>
-            </div>
             <div class="work info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+                <h2 class="info-header">
+                    <i class="iconfont icon-work"></i>
+                    <span class="info-title">工作经历</span>
+                </h2>
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>北京创客空间－实习生（实习）</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <h3>北京有序科技有限公司 (2014.11-至今)</h3>
+                        <p>14 年进入有序科技,开始着手组建 Android Team,管有方财务软件 App 端项目搭建,技术选型,研发,控制 android 端开发进度,任务规划。协调监督 iOS 外包人员关于 iOS 端的任务规划,开发进度,确保外包人员按时完成高质量的 App以及版本上线,后续迭代。</p>
+                        <p>16 年初开始摸索跨平台 nativescript+angular 2 应用开发,在架构师的带领下完成跨平台应用结构搭建,项目构建以及发布流程。利用4个月时间成功上线了管有方1.0 跨平台版本 (android&iOS)应用,后续不断迭代,升级优化 App。</p>
+                        <p>17 年开始接手管理有序前端 team(angular 2+webpack+gulp+bootstrap+swaager&angular cli+ant+swagger)研发 工作,负责梳理计划日常开发任务,利用taiga 有效管理日常开发任务。组织前、后端以及测试团队每天站立会议,协调各部门之间的沟通合作,参与产品team提出的 user story 讨论给出建设性意见以提升用户对管有方 web 版本的体验。
                         </p>
                     </li>
                     <li>
-                        <h3>实验楼－课程内容（实习）</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <h3>北京百汇数字星空科技有限公司 (2013.3-2014.10)</h3>
+                        <p>13 年初进入百汇从事creator软件开发,参与公司项目研发,主要针对企业的管理和业务发展提供有效的解决方案。期间负责行知财务管理以及小马过河课程系统研发,参与前期需求调研,项目时间表制定,跟进项目进度,及时与客户进行定期的项目验收。入职百汇1星期时间熟悉creator软件开发,第二周开始进入项目组参与项目研发,1个月后提前转正,成为百汇正式creator项目研发人员。
                         </p>
+                    </li>
+                    <li>
+                        <h3>大连艾森科信息技术有限公司 (2012.5-2013.12)</h3>
+                        <p>负责公司门户网站建设(HTML+CSS+Javscript),使用filemaker 研发公司客服服务系统,记录跟踪电信客户反馈信息,分析客户反馈数据最大限度的减少客户 流失量。</p>
                     </li>
                 </ul class="experience-list">
             </div>
             <div class="project info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">个人项目</span></h2>
+                <h2 class="info-header">
+                    <i class="iconfont icon-project"></i>
+                    <span class="info-title">开发项目</span>
+                </h2>
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>基于 Qt 5 的文本编辑器</h3>
+                        <h3>管有方web端</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            <br/>
+                            管有方web端主要有企业版,财税版以及新开的插件版。 3个项目都是基于angular框架构建的,API部分使用swagger与后端实现API自动更新。 企业版＆财税版主要是基于angular2.0 版本,使用gulp作为自动化构建任务管理器,webpack模块化打包。bootstrap作为项目组件库。在这两项目中主要负责业务模块设计研发,人员分配,组织codereview以及代码优化重构。
+                        </p>
+                        <p> 插件版是基于angular5.0版本,使用angular cli用于实现自动化项目开发流程。ant-design作为项目组件库。该项目主要负责前端技术选型,项目结构搭建,以及业务设计研发工作。
+
                         </p>
                     </li>
                     <li>
-                        <h3>基于 Flask 的主机监视系统</h3>
+                        <h3>管有方移动版</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            管有方是一款主要为小微企业提供服务的SaaS软件. 在项目中主要着手移动端技术选型,架构方案,以及业务需求分析,设计。提供合理的业务解决方案。 技术方面选型方面从最初的原生Android到angular+nativescript 跨平台应用的跨越。从最初只有Android到现在兼容Android＆iOS,期间遇到了很多困难,经过团队一起努力最终还是克服重重难题成功上线两版本应用。
                         </p>
-                    </li>
-                    <li>
-                        <h3>基于 Live2D 与 clmtrackr 的山寨 Facerig</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </li>
-                    <li>
-                        <h3>如果项目太少，可以在实验楼上找项目做啊:D</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <h4>Android 版本</h4>
+                        <p>采用MVP框架搭建项目结构。结合okhttp+retrofit+volley网络请求库,Picasso图片加载库,greendao数据库缓存,eventbus订阅通知。集成个推用于审批消息通知。试用gson解析数据,对服务器时间有时区限制的情况做特殊处理。</p>
+                        <h4>Nativscript 跨平台 版本</h4>
+                        <p>Angular 2 +Typescript + Nativescript为基础搭建项目框架,使用gulp作为项目任务管理工具,webpack打包应用。集成Chart.js用于图标显示,并对Android&iOS 分别适配。修改nativescript-imagepicker开源源码已满足业务需求。
                         </p>
                     </li>
                 </ul>
-            </div>
-            <div class="trophy info-unit">
-                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h2>
-                <hr>
-                <ul class="experience-list">
-                    <li>
-                        <h3>小学生作文二等奖</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
-                        </p>
-                    </li> 
-                    <li>
-                        <h3>曾获统一冰红茶“再来一瓶”奖</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
-                        </p>
-                    </li> 
-                    <li>
-                        <h3>这一行也是为了凑版面</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
-                        </p>
-                    </li>                     
-            </div>
-            <div class="aboutme info-unit right-paragraph">
-                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
-                <hr>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
             </div>
         </div>
     </div>
